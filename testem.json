@@ -1,0 +1,9 @@
+{
+    "framework": "mocha+chai",
+    "before_tests": "./node_modules/.bin/coffee -c ./spec/coffee/*.coffee",
+    "after_tests": "rm ./spec/coffee/*.js",
+    "src_files": [
+        "src/*.js",
+        "spec/coffee/*.js"
+    ]
+}

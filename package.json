@@ -15,6 +15,7 @@
   "readmeFilename": "README.md",
   "gitHead": "c92f306940530b0e14223e3fe164c9fae822a2b6",
   "devDependencies": {
-    "testem": "~0.2.94"
+    "testem": "~0.2.94",
+    "coffee-script": "~1.6.2"
   }
 }
