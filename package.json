@@ -1,0 +1,20 @@
+{
+  "name": "testem-sandbox",
+  "version": "0.0.0",
+  "description": "testem-sandbox ==============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/t9m/testem-sandbox.git"
+  },
+  "author": "t9m",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "c92f306940530b0e14223e3fe164c9fae822a2b6",
+  "devDependencies": {
+    "testem": "~0.2.94"
+  }
+}
