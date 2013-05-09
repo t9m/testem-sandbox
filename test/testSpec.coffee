@@ -1,5 +1,3 @@
-expect = chai.expect
-
 describe 'test', ->
   it 'should return argument', ->
     expect(test(1)).to.equal(1)
