@@ -4,7 +4,7 @@
   "description": "testem-sandbox ==============",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/testem"
   },
   "repository": {
     "type": "git",
