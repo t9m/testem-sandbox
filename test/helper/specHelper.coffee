@@ -1,16 +1,24 @@
-window.expect = chai.expect
+((window) ->
 
-$ ->
-  $('body').append \
+  window.expect = chai.expect
+
+  refreshMockDom = (mockDom = '') ->
+    $('#mockDom').html defaultMockDom + mockDom
+
+  defaultMockDom = \
     """
-      <div style="display:none;">
-        <div id="test1">
-          <div id="test2">
-            <div class="test3"></div>
-            <div class="test3"></div>
-            <div class="test3"></div>
-            <div class="test3"></div>
-          </div>
-        </div>
+    <div id="test1">
+      <div id="test2">
+        <div class="test3"></div>
+        <div class="test3"></div>
+        <div class="test3"></div>
+        <div class="test3"></div>
       </div>
+    </div>
     """
+
+  $ ->
+    $('body').append '<div id="mockDom" style="display:none;"></div>'
+    refreshMockDom()
+
+) this.self or global
