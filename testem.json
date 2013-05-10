@@ -1,7 +1,9 @@
 {
     "framework": "mocha+chai",
     "src_files": [
-        "test/vendor/*.js",
+        "test/vendor/jquery.min.js",
+        "test/vendor/sinon.js",
+        "test/vendor/sinon-chai.js",
         "test/helper/*.js",
         "src/*.js",
         "test/*.js"
