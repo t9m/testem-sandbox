@@ -12,6 +12,7 @@
     "before_tests": "./node_modules/.bin/coffee -c ./test/helper/*.coffee ./test/*.coffee",
     "after_tests": "rm ./test/helper/*.js ./test/*.js",
     "launch_in_dev": [
-        "Chrome"
+        "Chrome",
+        "PhantomJS"
     ]
 }
